@@ -6,7 +6,7 @@ typedef struct hash_table hash_table_t;
 
 typedef struct hash_table_entry
 {
-	unsigned key;
+	char *key;
 	void *data;
 	char is_deleted:1;
 }
